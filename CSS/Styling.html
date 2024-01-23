@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My web document</title>
+
+        <link rel="stylesheet" href="style_two.css">
+        
+    </head>
+
+    <body>
+        
+        <h1>Fundamentals of CSS</h1>
+        <h2>Cascading</h2>
+        
+        <div id="container">
+            <p>Style can be added as a inline element using style attribute on tags as is the case for this paragraph.
+            Here font-weight has been given a weight of 800.
+            </p>
+        </div>
+         
+        <style>
+            pre{color:green}
+        </style>
+        <pre> 
+        The inline style takes precedent over all other style 
+        declarations. Next in order of precedent is the embeded 
+        style. This uses style tags and is often found in the 
+        header section of a page. This pre tag is styled with 
+        embedded style. An extra large green font.
+        </pre>   
+        
+        <h3>Selectors</h3>
+        <p>CSS selectors are used to apply style. There is the element selector
+            and id selector. All being well you have used an element selector to modify
+the font on this page by adding style to the body tag in your attatched style sheet.
+Words in this sentence have been <span class="spacedWord">styled</span> using a class selector applied to <span class="spacedWord">letter-spacing</span> and
+the heading for this section with an id selector.</p>
+
+        <h2>Box Model</h2>
+        <div>
+            <li><a href="www.google.com">Google</a></li>
+            <li><a href="www.amazon.com">Amazon</a></li>
+
+            <p>list-style-type has been removed. Padding, margin and border have been used.</p>
+
+        </div>
+
+    </body>
+
+    <footer>
+
+        <h2>Layout</h2>
+
+        <ul><li>column 1</li>
+        <li>column 2</li>
+        <li>column 3</li></ul>
+
+        
+    </footer>
+
+    <nav>
+        <a href="../watIndex.html">Home</a>
+    </nav>
+
+</html>
