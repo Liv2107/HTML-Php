@@ -1,0 +1,28 @@
+#container{
+    font-weight:800;
+}
+h3{
+    font-weight:1000;
+}
+div li{
+    color:purple;
+    list-style-type:none;
+    display:inline;
+    text-decoration:none;
+    background-color:grey;
+    padding:10px;
+    border: solid green;
+    margin: 10px;
+}
+footer li{
+    list-style:none;
+    padding:20px;
+    border: solid green;
+    margin:10px;
+    float:left;
+    width:25%;
+}
+.spacedWord{
+    letter-spacing:4px;
+    color:purple;
+}
