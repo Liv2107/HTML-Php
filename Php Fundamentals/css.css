@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+footer{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+.redText{
+    color:red;
+}
